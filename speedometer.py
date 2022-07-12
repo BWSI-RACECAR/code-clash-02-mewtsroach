@@ -35,18 +35,14 @@ class Solution:
 
         # TODO: Write code below to return a list with the solution to the prompt
         lst = []
-        works = False
+        if len(ary) == 0:
+            return False
         for i in range(0, len(ary)):
             for j in range(0, len(ary)):
                 if ary[i] + ary[j] == target:
-                    works = True
                     lst.append(i)
                     lst.append(j)
-                    break
-            if works:
-                break
-        if works:
-            return lst.sort()
+                    return lst.sort()
         return False
 
 
