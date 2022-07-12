@@ -46,7 +46,7 @@ class Solution:
             if works:
                 break
         if works:
-            return lst
+            return sorted(lst)
         return False
 
 
