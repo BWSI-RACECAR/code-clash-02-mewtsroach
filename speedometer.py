@@ -38,7 +38,7 @@ class Solution:
         works = False
         for i in ary:
             for j in ary:
-                if i + j == target:
+                if ary[i] + ary[j] == target:
                     works = True
                     lst.append(i)
                     lst.append(j)
