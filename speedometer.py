@@ -36,8 +36,8 @@ class Solution:
         # TODO: Write code below to return a list with the solution to the prompt
         lst = []
         works = False
-        for i in ary:
-            for j in ary:
+        for i in range(0, len(ary)):
+            for j in range(0, len(ary)):
                 if ary[i] + ary[j] == target:
                     works = True
                     lst.append(i)
