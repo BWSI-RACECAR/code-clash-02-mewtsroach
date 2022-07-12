@@ -42,7 +42,7 @@ class Solution:
                 if ary[i] + ary[j] == target:
                     lst.append(i)
                     lst.append(j)
-                    return lst.sort()
+                    return lst
         return False
 
 
