@@ -35,15 +35,15 @@ class Solution:
 
         # TODO: Write code below to return a list with the solution to the prompt
         lst = []
-        bool = False
+        works = False
         for i in ary:
             for j in ary:
                 if i + j == target:
-                    bool = True
+                    works = True
                     lst.append(i)
                     lst.append(j)
                     break
-        if bool:
+        if works:
             return lst
         return False
 
