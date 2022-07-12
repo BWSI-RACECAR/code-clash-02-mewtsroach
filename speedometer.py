@@ -42,6 +42,7 @@ class Solution:
                     bool = True
                     lst.append(i)
                     lst.append(j)
+                    break
         if bool:
             return lst
         return False
