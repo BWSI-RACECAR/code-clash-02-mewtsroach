@@ -43,6 +43,8 @@ class Solution:
                     lst.append(i)
                     lst.append(j)
                     break
+            if works:
+                break
         if works:
             return lst
         return False
